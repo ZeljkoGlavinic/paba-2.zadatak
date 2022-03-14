@@ -1,0 +1,45 @@
+/* Visina stranice i dokumenta koja u cijelosti popunjava raspoloživu visinu */
+body,
+html {
+	height: 100%;
+	margin: 0;
+	font-family: Arial;
+}
+
+/* Izgled vezaKartica */
+.vezaKartice {
+	background-color: white;
+	color: black;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 25%;
+	margin-top: 0;
+}
+
+/* Izgled sadržaja kartica */
+.sadržajKartice {
+	display: none;
+	padding: 100px 20px;
+	height: 100%;
+}
+
+.pregled:hover,
+#Pregled {
+	background-color: rgb(255, 230, 230);
+}
+.upis:hover,
+#Upis {
+	background-color: rgb(204, 255, 221);
+}
+.tehnologije:hover,
+#Tehnologije {
+	background-color: rgb(179, 217, 255);
+}
+.pseudokôd:hover,
+#Pseudokôd {
+	background-color: rgb(255, 245, 204);
+}
